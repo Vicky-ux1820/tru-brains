@@ -288,6 +288,7 @@ body {
     line-height: 80px;
   }
 
+ 
 
   .offer-img {
     height: 350px;
@@ -315,6 +316,12 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .more-offer-text {
+   left: -28%;
+  }
+}
+
 
 
 /* Medium Mobile Screens */
@@ -328,13 +335,13 @@ body {
   }
 
   .offer-head-text {
-    padding-left: 12px;
+    padding-left: 24px;
     font-size: 78px;
     line-height: 70px;
   }
 
   .more-offer-text {
-    left: -52%;
+    left: -45%;
   }
 
   .offer-img {

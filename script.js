@@ -66,7 +66,7 @@ offerTimeline.to('.offer-money', {
   ease: "power1.out"
 }, 0.6); 
 
-gsap.to(".cta", {
+gsap.to(".cta-container", {
   opacity: 1,
   ease: "power1.out",
   scrollTrigger: {
