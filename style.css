@@ -160,8 +160,8 @@ body {
 
 .more-offer-text {
   position: absolute;
-  left: -26%;
-  top: -17%;
+  left: -200px;
+  top: -30px;
   right: auto;
   bottom: auto;
   z-index: 2;
@@ -283,9 +283,13 @@ body {
 /* Large Mobile Screens */
 @media (max-width: 768px) {
   .offer-head-text {
-    margin-left: 64px;
+    padding-left: 80px;
     font-size: 84px;
     line-height: 80px;
+  }
+
+  .more-offer-text{
+    left: -100px !important
   }
 
  
@@ -335,13 +339,13 @@ body {
   }
 
   .offer-head-text {
-    padding-left: 24px;
+    padding-left: 68px;
     font-size: 78px;
     line-height: 70px;
   }
 
   .more-offer-text {
-    left: -45%;
+    left: -100px;
   }
 
   .offer-img {
